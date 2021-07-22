@@ -34,15 +34,27 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             child: Center(
               child: Container(
-                color: kPaleRedColor,
-                width: 94.w,
-                height: 22.5.h,
+                decoration: BoxDecoration(
+                  color: kPaleRedColor,
+                  borderRadius: BorderRadius.circular(20.r),
+                ),
+                // color: kPaleRedColor,
+                width: 70.w,
+                height: 70.h,
                 child: Center(
-                  child: Text('빠빠맘마',
-                      style: GoogleFonts.notoSans(
-                        fontSize: 13.sp,
-                        color: kWhite_100Color,
-                      )),
+                  child: Text(
+                    '빠빠\n맘마',
+                    style: TextStyle(
+                      color: kWhite_100Color,
+                      fontSize: 26.sp,
+                      height: 0.8,
+                      fontFamily: 'yanolja',
+                    ),
+                  ),
+                  // style: GoogleFonts.notoSans(
+                  //   fontSize: 26.sp,
+                  //   color: kWhite_100Color,
+                  // )),
                 ),
               ),
             ),

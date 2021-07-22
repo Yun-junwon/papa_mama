@@ -55,6 +55,13 @@ flutter:
   assets:
     - assets/
 
+  fonts:
+    - family: yanolja
+      fonts:
+        - asset: assets/fonts/yanolya Regular.ttf
+        - asset: assets/fonts/yanolya Bold.ttf
+          weight: 700
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
